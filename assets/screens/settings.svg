@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 390 844" role="img" aria-label="CapitalNest settings screenshot">
+  <rect width="390" height="844" fill="#F8FAF9"/>
+  <rect width="390" height="100" fill="#0F5D31"/>
+  <text x="24" y="60" fill="#fff" font-family="Poppins, Arial, sans-serif" font-size="22" font-weight="700">Settings</text>
+  <rect x="20" y="130" width="350" height="80" rx="16" fill="#fff"/>
+  <text x="40" y="165" fill="#111" font-family="Poppins, Arial, sans-serif" font-size="15" font-weight="600">App Lock</text>
+  <text x="40" y="190" fill="#6B7280" font-family="Poppins, Arial, sans-serif" font-size="12">PIN · Fingerprint · Face</text>
+  <rect x="300" y="158" width="48" height="28" rx="14" fill="#24A148"/>
+  <circle cx="332" cy="172" r="10" fill="#fff"/>
+  <rect x="20" y="226" width="350" height="80" rx="16" fill="#fff"/>
+  <text x="40" y="261" fill="#111" font-family="Poppins, Arial, sans-serif" font-size="15" font-weight="600">Backup &amp; Restore</text>
+  <text x="40" y="286" fill="#6B7280" font-family="Poppins, Arial, sans-serif" font-size="12">Local SQLite export</text>
+  <rect x="20" y="322" width="350" height="80" rx="16" fill="#fff"/>
+  <text x="40" y="357" fill="#111" font-family="Poppins, Arial, sans-serif" font-size="15" font-weight="600">Smart Reminders</text>
+  <text x="40" y="382" fill="#6B7280" font-family="Poppins, Arial, sans-serif" font-size="12">Maturity &amp; due alerts</text>
+  <rect x="20" y="418" width="350" height="80" rx="16" fill="#fff"/>
+  <text x="40" y="453" fill="#111" font-family="Poppins, Arial, sans-serif" font-size="15" font-weight="600">CapitalNest Pro</text>
+  <text x="40" y="478" fill="#6B7280" font-family="Poppins, Arial, sans-serif" font-size="12">Unlimited · Export · No ads</text>
+  <rect x="20" y="514" width="350" height="80" rx="16" fill="#fff"/>
+  <text x="40" y="549" fill="#111" font-family="Poppins, Arial, sans-serif" font-size="15" font-weight="600">Reset Application</text>
+  <text x="40" y="574" fill="#DC2626" font-family="Poppins, Arial, sans-serif" font-size="12">Delete all local data</text>
+</svg>

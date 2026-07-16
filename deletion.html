@@ -1,33 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Data Deletion - CapitalNest</title>
-    <style>
-        body { font-family: -apple-system, sans-serif; line-height: 1.6; color: #333; max-width: 800px; margin: 0 auto; padding: 20px; }
-        h1, h2 { color: #c0392b; }
-        .back { display: inline-block; margin-bottom: 20px; color: #0b4625; text-decoration: none; font-weight: bold; }
-        .steps-box { background: #fdf2f2; border: 1px solid #f5c6cb; padding: 20px; border-radius: 6px; }
-        ol { padding-left: 20px; font-weight: bold; }
-        ol li { margin-bottom: 10px; font-weight: normal; }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Data Deletion — CapitalNest</title>
+  <meta name="description" content="How to permanently delete your CapitalNest data. All financial records are stored locally on your device.">
+  <meta name="theme-color" content="#0F5D31">
+  <link rel="canonical" href="https://capitalnest.app/deletion.html">
+  <link rel="icon" type="image/png" href="assets/favicon.png">
+  <link rel="apple-touch-icon" href="assets/logo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/main.css">
 </head>
-<body>
-    <a class="back" href="index.html">&larr; Back to Home</a>
-    <h1 style="color: #0b4625;">Delete Your Data</h1>
-    <p>CapitalNest values user privacy and controls. Because our system architecture stores all tracking information locally on your device using an offline SQLite ecosystem, we do not host or hold your personal data on external web servers.</p>
+<body class="page-inner">
+  <header class="site-header">
+    <div class="container nav">
+      <a class="brand" href="index.html" aria-label="CapitalNest home">
+        <img src="assets/logo.png" alt="CapitalNest" width="44" height="44">
+        <span class="brand-text">
+          <span class="brand-name">CapitalNest</span>
+          <span class="brand-tag">Your Personal Wealth Companion</span>
+        </span>
+      </a>
+      <nav class="nav-links" aria-label="Primary">
+        <a href="index.html">Home</a>
+        <a href="index.html#features">Features</a>
+        <a href="index.html#pricing">Pricing</a>
+        <a href="index.html#faq">FAQ</a>
+        <a href="support.html">Contact</a>
+      </nav>
+      <a class="btn btn-primary nav-cta btn-coming" href="index.html#download">Coming Soon</a>
+      <button class="nav-toggle" id="nav-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-drawer">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+      </button>
+    </div>
+  </header>
 
-    <div class="steps-box">
-        <h2 style="margin-top:0;">To permanently remove your application history:</h2>
-        <ol>
+  <div class="drawer-overlay" id="drawer-overlay" hidden></div>
+  <aside class="drawer" id="mobile-drawer" aria-label="Mobile navigation" aria-hidden="true">
+    <div class="drawer-header">
+      <div class="drawer-brand">
+        <img src="assets/logo.png" alt="" width="36" height="36">
+        CapitalNest
+      </div>
+      <button class="drawer-close" id="drawer-close" type="button" aria-label="Close menu">
+        <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg>
+      </button>
+    </div>
+    <nav class="drawer-links">
+      <a href="index.html">Home</a>
+      <a href="index.html#features">Features</a>
+      <a href="index.html#pricing">Pricing</a>
+      <a href="index.html#faq">FAQ</a>
+      <a href="support.html">Contact</a>
+      <a href="privacy.html">Privacy Policy</a>
+      <a href="terms.html">Terms &amp; Conditions</a>
+      <a href="deletion.html">Data Deletion</a>
+    </nav>
+    <a class="btn btn-primary btn-block btn-coming" href="index.html#download">Coming Soon</a>
+  </aside>
+
+  <main class="page-inner-main">
+    <div class="container">
+      <article class="page-panel">
+        <h1>Delete Your Data</h1>
+        <p>CapitalNest values user privacy and controls. Because our system architecture stores all tracking information locally on your device using an offline SQLite ecosystem, we do not host or hold your personal data on external web servers.</p>
+
+        <div class="page-steps">
+          <h2>To permanently remove your application history:</h2>
+          <ol>
             <li>Open the <strong>CapitalNest</strong> application on your mobile device.</li>
             <li>Navigate to the <strong>Settings</strong> panel menu.</li>
             <li>Tap on the <strong>Reset Application</strong> option choice.</li>
             <li>Confirm the prompt choice by pressing <strong>Delete</strong>.</li>
-        </ol>
-        <p style="margin-bottom:0;">Alternatively, performing a standard <strong>Uninstall</strong> action via your native device settings manager will wipe all local databases instantly.</p>
+          </ol>
+          <p style="margin-bottom:0;">Alternatively, performing a standard <strong>Uninstall</strong> action via your native device settings manager will wipe all local databases instantly.</p>
+        </div>
+
+        <p><em>Notice: If automatic remote cloud sync modules are introduced in a future application release iteration, this dashboard path will be updated to include remote web portal single-click cloud deletion forms.</em></p>
+      </article>
     </div>
-    <p><em>Notice: If automatic remote cloud sync modules are introduced in a future application release iteration, this dashboard path will be updated to include remote web portal single-click cloud deletion forms.</em></p>
+  </main>
+
+  <footer class="page-inner-footer">
+    <div class="container footer-bottom">
+      <p>&copy; 2026 CapitalNest. All rights reserved.</p>
+      <div class="footer-bottom-links">
+        <a href="privacy.html">Privacy Policy</a>
+        <a href="terms.html">Terms</a>
+        <a href="support.html">Contact</a>
+        <a href="deletion.html">Data Deletion</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js" defer></script>
 </body>
 </html>
