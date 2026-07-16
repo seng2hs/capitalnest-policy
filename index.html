@@ -403,7 +403,7 @@
             <div class="trend-card">
               <h4>Net Worth</h4>
               <div class="trend-value">
-                <strong>₹11,65,000</strong>
+                <strong data-money="1165000" data-money-compact>₹11,65,000</strong>
                 <span class="trend-pill">Total portfolio</span>
               </div>
             </div>
@@ -478,12 +478,29 @@
           <span class="eyebrow">Pricing</span>
           <h2 class="section-title">Simple, Transparent Plans</h2>
           <p class="section-desc">Start free. Upgrade when you need unlimited records, advanced reports and exports.</p>
+          <div class="currency-bar" aria-label="Currency preference">
+            <label for="currency-select">Show prices in</label>
+            <select id="currency-select" name="currency">
+              <option value="auto">Auto (your country)</option>
+              <option value="INR">INR — Indian Rupee</option>
+              <option value="USD">USD — US Dollar</option>
+              <option value="EUR">EUR — Euro</option>
+              <option value="GBP">GBP — British Pound</option>
+              <option value="AED">AED — UAE Dirham</option>
+              <option value="SGD">SGD — Singapore Dollar</option>
+              <option value="AUD">AUD — Australian Dollar</option>
+              <option value="CAD">CAD — Canadian Dollar</option>
+              <option value="MYR">MYR — Malaysian Ringgit</option>
+              <option value="SAR">SAR — Saudi Riyal</option>
+            </select>
+            <p class="currency-note" id="currency-note"></p>
+          </div>
         </div>
 
         <div class="pricing-grid">
           <article class="price-card reveal">
             <div class="price-name">Free</div>
-            <div class="price-amount">₹0</div>
+            <div class="price-amount"><span data-money="0">₹0</span></div>
             <p class="price-note">Free Forever</p>
             <ul class="price-features">
               <li><span class="check" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 13l4 4L19 7"/></svg></span>Limited Records</li>
@@ -497,7 +514,7 @@
           <article class="price-card featured reveal reveal-delay-1">
             <span class="popular-badge">Most Popular</span>
             <div class="price-name">Pro</div>
-            <div class="price-amount">₹499<span>/year</span></div>
+            <div class="price-amount"><span data-money="499">₹499</span><span>/year</span></div>
             <p class="price-note">Best for active users</p>
             <ul class="price-features">
               <li><span class="check" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 13l4 4L19 7"/></svg></span>Unlimited Records</li>
@@ -511,7 +528,7 @@
 
           <article class="price-card reveal reveal-delay-2">
             <div class="price-name">Lifetime</div>
-            <div class="price-amount">₹2,199</div>
+            <div class="price-amount"><span data-money="2199">₹2,199</span></div>
             <p class="price-note">One-time purchase</p>
             <ul class="price-features">
               <li><span class="check" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 13l4 4L19 7"/></svg></span>All Pro Features</li>
